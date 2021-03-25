@@ -298,7 +298,7 @@ public class StudentClass extends JFrame {
 					
 					ps.execute();
 					
-					JOptionPane.showMessageDialog(null, "Exam Data Saved");
+					JOptionPane.showMessageDialog(null, "Student Data Saved");
 					ps.close();
 				} catch (Exception e1) {
 					e1.printStackTrace();

@@ -233,16 +233,12 @@ public class LoginForm {
 						ps.setString(1, txtusername);
 						ps.setString(2, pass);
 						ps.setString(3, txtutype);
-						
-						 
+		
 						ResultSet rs = ps.executeQuery();
-					   
-						
+				
 						if (rs.next()) {
 						
 					    int id = rs.getInt("id");
-					   
-					   // frame.dispose();
 					   
 					    if (txtutype.equals("Admin")) {
 					    	
